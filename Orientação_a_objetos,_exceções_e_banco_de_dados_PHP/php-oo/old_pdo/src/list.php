@@ -10,5 +10,4 @@ echo "<h3>Produtos: </h3>";
 
 foreach($pdo->query($sql) as $key => $value){
     echo '<span> Id: ' . $value['idProduto'] . '</span>'. "<br> Descrição: " . $value['descricao'] . "<hr><br>";
-
 }
