@@ -1,0 +1,5 @@
+CREATE TABLE post (
+	idpost INT NOT NULL AUTO_INCREMENT,
+    descricao VARCHAR(500) DEFAULT NULL,
+    PRIMARY KEY (idpost)
+);
